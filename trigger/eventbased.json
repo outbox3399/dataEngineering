@@ -1,0 +1,25 @@
+{
+	"name": "eventbased",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/unitycatalog/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/c7fb16a6-eac7-43d6-8f71-d33b9cafba33/resourceGroups/databricksresourcegroup/providers/Microsoft.Storage/storageAccounts/databricksstorage009",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}

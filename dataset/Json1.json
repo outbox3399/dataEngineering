@@ -1,0 +1,27 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "metadataLinked1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@item.name",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "concat(\"sink_catalog\", \"/\", split(@item, '_')[0])",
+					"type": "Expression"
+				},
+				"fileSystem": "unitycatalog"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

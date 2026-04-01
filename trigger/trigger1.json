@@ -1,0 +1,25 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Event Grid",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "CustomEventsTrigger",
+		"typeProperties": {
+			"subjectEndsWith": "",
+			"subjectBeginsWith": "Factory",
+			"scope": "/subscriptions/c7fb16a6-eac7-43d6-8f71-d33b9cafba33/resourceGroups/databricksresourcegroup/providers/Microsoft.EventGrid/topics/manoj-custom-3399",
+			"events": [
+				"copyCompleted",
+				"copySuceed"
+			]
+		}
+	}
+}
