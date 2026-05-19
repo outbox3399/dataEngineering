@@ -1,0 +1,231 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactoryinstance009"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase5_password": {
+			"value": ""
+		},
+		"AzureToDatabricks_accessToken": {
+			"value": ""
+		},
+		"SinkForJoin_accountKey": {
+			"value": ""
+		},
+		"Union_accountKey": {
+			"value": ""
+		},
+		"databaseJoin_password": {
+			"value": ""
+		},
+		"databasejoinS2_password": {
+			"value": ""
+		},
+		"loggingAzureSql_password": {
+			"value": ""
+		},
+		"loggingBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"loggingDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"metadataLinked1_accountKey": {
+			"value": ""
+		},
+		"sinkLinkedServiceEventTrigger_accountKey": {
+			"value": ""
+		},
+		"sourceLinkedService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_database": {
+			"value": "@{linkedService().db_name}"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"AzureToDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "0326-073539-bnstiyk7"
+		},
+		"SinkForJoin_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"Union_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"databaseJoin_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"databaseJoin_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"databaseJoin_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"databasejoinS2_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"databasejoinS2_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"databasejoinS2_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"loggingAzureSql_properties_typeProperties_server": {
+			"value": "pocservermanoj.database.windows.net"
+		},
+		"loggingAzureSql_properties_typeProperties_database": {
+			"value": "pocdatabasemanoj"
+		},
+		"loggingAzureSql_properties_typeProperties_userName": {
+			"value": "manoj"
+		},
+		"loggingDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"metadataLinked1_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"sinkLinkedServiceEventTrigger_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"sourceLinkedService_properties_typeProperties_url": {
+			"value": "https://databricksstorage009.dfs.core.windows.net/"
+		},
+		"eventTrigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/c7fb16a6-eac7-43d6-8f71-d33b9cafba33/resourceGroups/databricksresourcegroup/providers/Microsoft.Storage/storageAccounts/databricksstorage009"
+		},
+		"eventbased_properties_typeProperties_scope": {
+			"value": "/subscriptions/c7fb16a6-eac7-43d6-8f71-d33b9cafba33/resourceGroups/databricksresourcegroup/providers/Microsoft.Storage/storageAccounts/databricksstorage009"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/c7fb16a6-eac7-43d6-8f71-d33b9cafba33/resourceGroups/databricksresourcegroup/providers/Microsoft.EventGrid/topics/manoj-custom-3399"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
